@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size:cover;
+}
+
+/* header section */
+.header{
+    display: flex;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    margin-left: 40px;
+    width: 130px;
+    height: fit-content;
+}
+.search-box input{
+    margin-left: 50px;
+    width: 300px;
+    height: 35px;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+.header .btn{
+    margin-left: 10px;
+    padding: 10px 20px;
+    color: rgb(104, 15, 58);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn .find-btn,
+.btn .book-btn,
+.btn .emergency-btn,
+.btn .contact-btn{
+    height: 40px;
+    width: 130px;
+    color: rgb(104, 15, 58);
+    background: none;
+    border: 1px solid rgb(104, 15, 58);
+    border-radius: 5px;
+}
+.btn .emergency-btn{
+    background-color: red;
+    color: white;
+}
+.find-btn:hover{
+    background-color: rgb(104, 15, 58);
+    color: white;
+}
+.book-btn:hover{
+    background-color: rgb(104, 15, 58);
+    color: white;
+}
+.contact-btn:hover{
+    background-color: rgb(104, 15, 58);
+    color: white;
+}
+/* .emergency-btn:hover{
+    background-color: white;
+    color: rgb(104, 15, 58);
+} */
+
+
+/* navigation section */
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 12px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(104, 15, 58);
+    font-weight:600;
+}
+.nav a:hover{
+    color:blue;
+}
+.paragraph{
+    height: 70vh;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    color: rgb(104, 15, 58);
+}
+.content{
+    max-width: 600px;
+    margin-left: 5px;
+    text-align: center;
+}
+

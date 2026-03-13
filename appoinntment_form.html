@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment-Form</title>
+    <link rel="stylesheet" href="appointment.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Make an Appointment</h1>
+        </div>
+    <form id="AppointmentForm">
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" placeholder="IN CAPITAL"><br><br>
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="text" placeholder="abc@mail.com"><br><br>
+        </div>
+        <div class="form-group">
+            <label>Phone:</label>
+            <input type="text" placeholder="in numerical"><br><br>
+        </div>
+    </div>
+    
+
+    <!-- location section -->
+    <select name="Location" id="Location">
+        <option value="-Select Location-">-Select Location-</option>
+        <option value="Trichy-Tennur">Trichy-Tennur</option>
+        <option value="Trichy-Cantonment">Trichy-Cantonment</option>
+        <option value="Trichy-Heart City">Trichy-Heart City</option>
+        <option value="Maa Kauvery Trichy">Maa Kauvery Trichy</option>
+        <option value="Chennai-Mylapore">Chennai-Mylapore</option>
+        <option value="Hosur">Hosur</option>
+        <option value="Electronics City">Electronics City</option>
+    </select>
+    <br><br>
+    
+
+    <!-- Speciality section -->
+    <select name="Speciality" id="Speciality">
+        <option value="-Select Speciality-">-Select Speciality-</option>
+        <option value="Cardiology">Cardiology</option>
+        <option value="Radiology">Radiology</option>
+        <option value="Diabetology">Diabetology</option>
+        <option value="Fertility (IVF)">Fertility (IVF)</option>
+        <option value="General Medicine">General Medicine</option>
+        <option value="Gastroenterology">Gastroenterology</option>
+        <option value="Neurology & Neuroscience">Neurology & Neuroscience</option>
+        <option value="ENT Head and Neck Surgery">ENT Head and Neck Surgery</option>
+        <option value="Dental & Maxillofacial">Dental & Maxillofacial</option>
+    </select><br><br>
+
+    <div class="form-group">
+        <label>Enter Date:</label>
+        <input type="date"><br><br>
+    </div>
+    <div class="form-group">
+        <label>Message:</label>
+        <textarea name="text" id="in letter"></textarea>
+    </div>
+    </form>
+    
+
+    <!-- Button section -->
+    <button type="submit" class="submit-btn">Submit</button>
+
+
+
+
+<script src="appointment.js"></script>
+</body>
+</html>
